@@ -41,7 +41,7 @@ double calculateDistance(double x1, double y1, double x2, double y2) {
 // Calculate the perimeter (circumference) of the circle
 double calculatePerimeter(double diameter) {
     double radius = diameter / 2;
-    double perimeter = 2 * PI * radius;
+    double perimeter = 2 * PI * radius; // Perimeter (cirumference) is equal to 2 * pi * radius
     printf("The perimeter of the city encompassed by your request is %.2lf\n", perimeter);
     
     return 2.0; // Return difficulty level 
@@ -50,7 +50,7 @@ double calculatePerimeter(double diameter) {
 // Function to calculate the area of the circle
 double calculateArea(double diameter) {
     double radius = diameter / 2;
-    double area = PI * pow(radius, 2);
+    double area = PI * pow(radius, 2); // area of circle is equal to pi * radius^2
     printf("The area of the city encompassed by your request is %.2lf\n", area);
     
     return 3.0; // Return difficulty level 
